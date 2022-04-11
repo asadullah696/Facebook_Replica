@@ -1,0 +1,431 @@
+body{
+    display: flex;
+    width: calc(100vw);
+    height: calc(100vh);
+    background-color: lightyellow;
+}
+div.nav{
+    display: flex;
+    position: fixed;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(10vh);
+    width: calc(100vw);
+    background-color: white;
+}
+div.mainlogo{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(1vw);
+    height: calc(6vh);
+    width: calc(4vw);
+    background-color: transparent;
+}
+img.mainlogo{
+    display: flex;
+    position: inherit;
+    width: inherit;
+    height: inherit;
+    border-radius: 100px;
+}
+div.srchnav{
+    display: flex;
+    position: absolute;
+    left: calc(6vw);
+    top: calc(2vh);
+    height: calc(6vh);
+    width: calc(15vw);
+    background-color: lightgray;
+    justify-content: flex-end;
+    border-radius: 100px;
+    /* justify-content: flex-start; */
+    text-align: center;
+}
+input.srchbar{
+    height: inherit;
+    width: calc(13vw);
+    border-radius: 100px;
+    /* border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px; */
+    text-indent: 20px;
+    background-color: lightgray;
+    color: darkgray;
+    border: 0px;    
+    justify-content: flex-start;
+}
+i.srchbar{
+    font-size: 140%;
+    font-weight: bold;
+    height: inherit;
+    color: darkgray;
+    width: calc(3vw);
+}
+div.shortcutbar{
+    display: flex;
+    position: absolute;
+    left: calc(30vw);
+    top: calc(0vh);
+    height: inherit;
+    width: calc(40vw);
+    background-color: transparent;
+}
+div.home{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    width: calc(0vw);
+    background-color: transparent;
+    height: inherit;
+    width: calc(10vw);
+    text-align: center;
+}
+div.video{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(10vw);
+    width: calc(0vw);
+    background-color: transparent;
+    height: inherit;
+    width: calc(10vw);
+    text-align: center;
+}
+div.profile{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(20vw);
+    width: calc(0vw);
+    background-color: transparent;
+    height: inherit;
+    width: calc(10vw);
+    text-align: center;
+}
+div.game{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(30vw);
+    width: calc(0vw);
+    background-color: transparent;
+    height: inherit;
+    width: calc(10vw);
+    text-align: center;
+    justify-content: flex-start;
+}
+i.srb{
+    display: flex;
+    position: absolute;
+    top: calc(2.5vh);
+    height: 70%;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+}
+svg.srb{
+    font-size: 50%;
+    height: 70%;
+    width: 70%;
+}
+div.menu{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    right: calc(0vw);
+    height: inherit;
+    width: calc(25vw);
+    background-color: transparent;
+}
+div.pd{
+    display: flex;
+    position: absolute;
+    left: calc(vw);
+    top: calc(2vh);
+    width: calc(10vw);
+    height: calc(6vh);
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+}
+div.pd:hover{
+    background-color: gray;
+}
+div.pi{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: calc(2vw);
+    background-color: transparent;
+}
+img.pi{
+    height: inherit;
+    width: inherit;
+    border-radius: 100px;
+}
+div.name{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(5vh);
+    width: 7vw;
+    height: calc(4vh);
+    background-color: transparent;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+div.mnuicon{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    right: calc(0vw);
+    height: inherit;
+    width: calc(15vw);
+    background-color: transparent;
+}
+div.mnu{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(0vw);
+    height: calc(6vh);
+    width: calc(3vw);
+    background-color: transparent;
+    border-radius: 100px;
+}
+div.msngr{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(4vw);
+    height: calc(6vh);
+    width: calc(3vw);
+    background-color: transparent;
+    border-radius: 100px;
+    text-align: center;
+    justify-content: center;
+}
+div.ntfc{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(8vw);
+    height: calc(6vh);
+    width: calc(3vw);
+    background-color: transparent;
+    border-radius: 100px;
+}
+div.drpdn{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(12vw);
+    height: calc(6vh);
+    width: calc(3vw);
+    background-color: transparent;
+    border-radius: 100px;
+}
+div.fbdta{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    width: calc(100vw);
+    height: calc(90vh);
+    background-color: aqua;
+}
+div.menulist{
+    display: flex;
+    position: fixed;
+    top: calc(10vh);
+    left: calc(0vw);
+    scroll-behavior: smooth;
+    width: calc(22vw);
+    height: calc(90vh);
+    background-color: rgb(255, 255, 255);
+}
+i.menu{
+    height: inherit;
+    width: inherit;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+i.menu:hover{
+    background-color: gray;
+    border-radius: 100px;
+}
+div.id{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(8vh);
+    width: inherit;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+div.piid{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(3vw);
+    width: calc(3vw);
+    height: calc(6vh);
+}
+img.piid{
+    border-radius: 100px;
+    height: inherit;
+    width: inherit;
+}
+div.nameid{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(5vw);
+    height: calc(4vh);
+    width: calc(16vw);
+    font-weight: bold;
+    text-align: center;
+    /* background-color: rgb(16, 32, 252); */
+    justify-content: center;
+}
+div.mnu1{
+    display: flex;
+    position: absolute;
+    top: calc(8vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: blueviolet; */
+}
+div.mnu2{
+    display: flex;
+    position: absolute;
+    top: calc(16vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: rgb(132, 0, 255); */
+}
+div.mnu3{
+    display: flex;
+    position: absolute;
+    top: calc(24vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: rgb(58, 5, 107); */
+}
+div.mnu4{
+    display: flex;
+    position: absolute;
+    top: calc(32vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: blueviolet; */
+}
+div.mnu5{
+    display: flex;
+    position: absolute;
+    top: calc(40vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: rgb(101, 226, 43); */
+}
+div.mnu6{
+    display: flex;
+    position: absolute;
+    top: calc(48vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: rgb(43, 226, 202); */
+}
+div.mnu7{
+    display: flex;
+    position: absolute;
+    top: calc(56vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: rgb(11, 95, 0); */
+}
+div.mnu8{
+    display: flex;
+    position: absolute;
+    top: calc(64vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: blueviolet; */
+}
+div.mnu9{
+    display: flex;
+    position: absolute;
+    top: calc(72vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: blueviolet; */
+}
+div.mnu10{
+    display: flex;
+    position: absolute;
+    top: calc(80vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: blueviolet; */
+}
+div.mnu11{
+    display: flex;
+    position: absolute;
+    top: calc(88vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: blueviolet; */
+}
+div.mnu12{
+    display: flex;
+    position: absolute;
+    top: calc(96vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(8vh);
+    /* background-color: blueviolet; */
+}
+div.mnuicn{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(2vw);
+    height: inherit;
+    width: calc(3vw);
+    /* background-color: gray; */
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+div.icndata{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(5vw);
+    height: calc(4vh);
+    width: calc(16vw);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(16, 252, 67); */
+}
+div.hvr:hover{
+    background-color: lightgray;
+    border-radius: 50px;
+}
