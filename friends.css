@@ -1,0 +1,172 @@
+div.frndrqst{
+    display: flex;
+    position: absolute;
+    left: calc(30vw);
+    top: calc(0vh);
+    height: calc(90vh);
+    width: calc(40vw);
+    /* background-color: aquamarine; */
+    overflow: scroll;
+}
+div.hdfrrq{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0vw);
+    /* background-color: yellow; */
+    height: calc(8vh);
+    width: calc(40vw);
+    border-bottom: 1px solid black;
+    color: darkblue;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: cursive; !important
+}
+div.frrq1{
+    display: flex;
+    position: inherit;
+    top: calc(10vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.frrq2{
+    display: flex;
+    position: inherit;
+    top: calc(30vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.frrq3{
+    display: flex;
+    position: inherit;
+    top: calc(50vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.frrq4{
+    display: flex;
+    position: inherit;
+    top: calc(70vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.frrq5{
+    display: flex;
+    position: inherit;
+    top: calc(90vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.frrq6{
+    display: flex;
+    position: inherit;
+    top: calc(110vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.frrq7{
+    display: flex;
+    position: inherit;
+    top: calc(130vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.frrq8{
+    display: flex;
+    position: inherit;
+    top: calc(150vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(34vw);
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div.fricn{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(1vw);
+    height: calc(8vh);
+    width: calc(4vw);
+    background-color: rgb(81, 255, 0);
+    border-radius: 100px;
+    border: 1px solid darkblue;
+}
+div.frnme{
+    display: flex;
+    position: absolute;
+    top: calc(3vh);
+    left: calc(6vw);
+    width: calc(20vw);
+    height: calc(6vh);
+    font-size: x-large;
+    font-weight: bold;
+    /* background-color: blanchedalmond; */
+}
+div.acpt{
+    display: flex;
+    position: absolute;
+    bottom: calc(1vh);
+    right: calc(15vw);
+    height: calc(8vh);
+    width: calc(10vw);
+    background-color: rgb(2, 2, 255);
+    border-radius: 20px;
+}
+button.acpt:hover{
+    background-color: darkblue;
+}
+button.acpt{
+    height: inherit;
+    width: inherit;
+    border-radius: 20px;
+    background-color: blue;
+}
+div.cncl{
+    display: flex;
+    position: absolute;
+    bottom: calc(1vh);
+    right: calc(3vw);
+    height: calc(8vh);
+    width: calc(10vw);
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+button.cncl{
+    height: inherit;
+    width: inherit;
+    background-color: white;
+    border-radius: 20px;
+}
+button.cncl:hover{
+    background-color: whitesmoke;
+}
