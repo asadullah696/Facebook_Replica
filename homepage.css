@@ -2,7 +2,7 @@ body{
     display: flex;
     width: calc(100vw);
     height: calc(100vh);
-    background-color: lightyellow;
+    background-color: rgb(255, 255, 187);
 }
 div.nav{
     display: flex;
@@ -234,7 +234,7 @@ div.fbdta{
     left: calc(0vw);
     width: calc(100vw);
     height: calc(90vh);
-    background-color: aqua;
+    background-color: lightyellow;
     overflow: scroll;
     /* z-index: 10; */
 }
@@ -246,7 +246,7 @@ div.menulist{
     overflow: scroll;
     /* scroll-behavior: unset; */
     width: calc(22vw);
-    height: calc(105vh);
+    height: calc(90vh);
     background-color: rgb(255, 255, 255);
 }
 i.menu{
@@ -437,11 +437,11 @@ div.contact{
     position: fixed;
     right: calc(0vw);
     top: calc(10vh);
-    height: calc(90vh);
+    height: calc(100vh);
     overflow: scroll;
     scrollbar-width: 1px;
     width: calc(20vw);
-    background-color: lightyellow;
+    background-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
     text-indent: 8px;
 }
@@ -731,4 +731,334 @@ div.cont10{
     /* background-color: rgb(10, 75, 75); */
     border-bottom: 1px solid black;
     border-radius: 20px;
+}
+div.mnfdpge{
+    display: flex;
+    position: absolute;
+    left: calc(25vw);
+    top: calc(0vh);
+    width: calc(50vw);
+    height: calc(105vh);
+    /* background-color: lightcoral; */
+    overflow: scroll;
+    /* scrollbar-width: 1px; */
+}
+div.fbstry{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0vw);
+    height: calc(30vh);
+    width: inherit;
+    /* background-color: lightgray; */
+}
+div.mystry1{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(30vh);
+    width: calc(8vw);
+    background-color: white;
+    border-radius: 20px;
+}
+div.picmystry{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(20vh);
+    width: inherit;
+    /* background-color: lightpink; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div.strycption{
+    display: flex;
+    position: absolute;
+    bottom: calc(0vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: inherit;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* background-color: rgb(231, 140, 29); */
+    justify-content: center;
+    font-size: small;
+}
+img.strypic{
+    height: inherit;
+    width: inherit;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div.addstry{
+    display: flex;
+    position: absolute;
+    bottom: calc(7vh);
+    left: calc(2.5vw);
+    height: calc(6vh);
+    width: calc(3vw);
+    border-radius: 100px;
+    background-color: rgb(17, 0, 255);
+    border: 5px solid rgb(255, 255, 255);
+}
+i.stry{
+    color: rgb(254, 254, 255);
+}
+div.mystry2{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(9vw);
+    height: calc(30vh);
+    width: calc(8vw);
+    background-color: white;
+    border-radius: 20px;
+}
+img.strypic2{
+    height: inherit;
+    width: inherit;
+    border-radius: 20px;
+}
+div.addstry2{
+    display: flex;
+    position: absolute;
+    left: calc(0.5vw);
+    top: calc(1vh);
+    height: calc(4vh);
+    width: calc(2vw);
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.993);
+    border: 1px solid rgb(255, 0, 0);
+}
+i.stry2{
+    color: rgb(255, 255, 255);
+}
+div.picmystry2{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(30vh);
+    width: inherit;
+    /* background-color: lightpink; */
+    border-radius: 20px;
+}
+div.strycption2{
+    display: flex;
+    position: absolute;
+    bottom: calc(0vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: inherit;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(231, 140, 29, 0);
+    justify-content: center;
+    font-size: small;
+    color: black;
+    font-weight: bolder;
+    
+}
+div.mystry3{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(18vw);
+    height: calc(30vh);
+    width: calc(8vw);
+    background-color: white;
+    border-radius: 20px;
+}
+div.mystry4{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(27vw);
+    height: calc(30vh);
+    width: calc(8vw);
+    background-color: white;
+    border-radius: 20px;
+}
+div.mystry5{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(36vw);
+    height: calc(30vh);
+    width: calc(8vw);
+    background-color: white;
+    border-radius: 20px;
+}
+div.mrestry{
+    display: flex;
+    position: absolute;
+    right: calc(2vw);
+    top: calc(12vh);
+    height: calc(6vh);
+    width: calc(3vw);
+    background-color: rgb(27, 0, 148);
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 100px;
+    color: white;
+}
+div.nfddtaa{
+    display: flex;
+    position: absolute;
+    top: calc(32vh);
+    left: calc(5vw);
+    height: calc(200vh);
+    width: calc(40vw);
+    /* background-color: lightskyblue; */
+}
+div.postfb{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(16vh);
+    width: inherit;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+div.postfbtp{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    width: inherit;
+    height: calc(8vh);
+    width: inherit;
+    /* background-color: lightsalmon; */
+    border-bottom: 1px solid black;
+}
+div.postfbtpimg{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0.5vw);
+    height: calc(6vh);
+    width: calc(3vw);
+    /* background-color: lightgoldenrodyellow; */
+    border-radius: 100px;
+}
+img.postfbtp{
+    height: inherit;
+    width: inherit;
+    border-radius: 100px;
+}
+div.postsrchbr{
+    display: flex;
+    position: absolute;
+    right: calc(1vw);
+    top: calc(0.5vh);
+    height: calc(6vh);
+    width: calc(35vw);
+    /* background-color: lightgreen; */
+    border-radius: 40px;
+}
+input.postsrchbr{
+    height: inherit;
+    width: inherit;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+div.mrepst{
+    display: flex;
+    position: absolute;
+    bottom: calc(0vh);
+    left: calc(0vw);
+    height: calc(8vh);
+    width: inherit;
+    /* background-color: lightgreen; */
+}
+div.photopost1{
+    display: flex;
+    position: absolute;
+    left: calc(1vw);
+    top: calc(0vh);
+    width: calc(12vw);
+    height: inherit;
+    /* background-color: lightcyan; */
+}
+div.photopost2{
+    display: flex;
+    position: absolute;
+    left: calc(14vw);
+    top: calc(0vh);
+    width: calc(12vw);
+    height: inherit;
+    /* background-color: lightcyan; */
+}
+div.photopost3{
+    display: flex;
+    position: absolute;
+    left: calc(27vw);
+    top: calc(0vh);
+    width: calc(12vw);
+    height: inherit;
+    /* background-color: lightcyan; */
+}
+div.icnpst{
+    display: flex;
+    position: absolute;
+    left: calc(0vw);
+    top: calc(0vh);
+    width: calc(4vw);
+    height: inherit;
+    /* background-color: lightslategray; */
+    align-items: center;
+    justify-content: center;
+    color: rgb(169, 235, 16);
+}
+div.icnpstdta{
+    display: flex;
+    position: absolute;
+    right: calc(0vw);
+    top: calc(2vh);
+    height: calc(5vh);
+    width: calc(8vw);
+    /* background-color: rgb(78, 180, 180); */
+}
+div.postfb1{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(100vh);
+    /* background-color: lightgreen; */
+}
+div.postfb2{
+    display: flex;
+    position: absolute;
+    top: calc(120vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(65vh);
+    /* background-color: rgb(6, 59, 6); */
+}
+div.postfb3{
+    display: flex;
+    position: absolute;
+    top: calc(185vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(71vh);
+    /* background-color: lightgreen; */
+}
+div.postfb4{
+    display: flex;
+    position: absolute;
+    top: calc(255vh);
+    left: calc(0vw);
+    width: inherit;
+    height: calc(68vh);
+    /* background-color: rgb(37, 122, 37); */
+}
+iframe.postfb{
+    height: inherit;
+    width: inherit;
 }
