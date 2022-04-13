@@ -1,0 +1,53 @@
+div.videoli{
+    display: flex;
+    position: absolute;
+    left: calc(30vw);
+    top: calc(0vh);
+    width: calc(40vw);
+    height: calc(100vh);
+    background-color: whitesmoke;
+    overflow: scroll;
+}
+div.vidhd{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0vw);
+    /* background-color: yellow; */
+    height: calc(8vh);
+    width: calc(40vw);
+    border-bottom: 1px solid black;
+    color: darkblue;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: cursive; !important
+}
+div.vid1{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vh);
+    width: inherit;
+    height: calc(70vh);
+}
+div.vid2{
+    display: flex;
+    position: absolute;
+    top: calc(70vh);
+    left: calc(0vh);
+    width: inherit;
+    height: calc(80vh);
+}
+div.vid3{
+    display: flex;
+    position: absolute;
+    top: calc(140vh);
+    left: calc(0vh);
+    width: inherit;
+    height: calc(100vh);
+}
+
+iframe.vid{
+    width: inherit;
+    height: inherit;
+}
